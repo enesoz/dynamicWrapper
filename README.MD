@@ -10,5 +10,9 @@ ConfigurationReader has two methods including
 
 public ConfigurationReader build(String applicationName, String connectionString, int refreshTimerIntervalInMs);  /prepare parameters 
 public <T> T getValue(String key) ;  // get value of Configuration as  defined type
+  
+  Requirement :
+  
+  Running MongoDB default settings
 
 
