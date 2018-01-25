@@ -21,7 +21,7 @@ public class ManagerWrapper implements CommandLineRunner {
     public void run(String... strings) {
         try {
             ConfigurationReader manager = reader.build("enes", "", 600);
-            System.out.println(reader.getValue("confName") + "-" + manager.getValue("confName").getClass().getName());
+            System.out.println(reader.getValue("wef") + "-" + manager.getValue("wef").getClass().getName());
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
